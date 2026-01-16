@@ -42,10 +42,6 @@ A browser window should pop up, and you can start chatting.
 *   **rag.py**: The brain. It reads your files, chops them into small pieces, and searches for the best pieces when you ask a question.
 *   **Ollama**: The local AI that takes those pieces and writes a nice answer for you.
 
-## 💡 Customization
-*   **Change the model:** Open `app.py` and change `OLLAMA_MODEL = "llama3.2"` to whatever model you have in Ollama (like `mistral` or `gemma`).
-*   **Change the data:** Just delete the file in `data/` and put your own in. Restart the app to update it.
-
 ## 🐛 Having issues?
 *   **"Connection refused"**: Is Ollama running? Open a terminal and type `ollama serve`.
 *   **"No documents loaded"**: Did you put `.txt` files in the `data/` folder?
