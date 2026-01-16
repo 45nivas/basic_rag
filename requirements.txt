@@ -1,0 +1,6 @@
+streamlit
+ollama
+sentence-transformers
+numpy
+torch
+python-dotenv
